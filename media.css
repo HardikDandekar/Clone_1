@@ -1,6 +1,11 @@
 @media (max-width: 600px){
+    
+    body{
+        width: 100%;
+        height: 100%;
+    }
     nav{
-        display: inline;  
+         display: inline;
     }
     nav > .navleft,.navright {
         border: 2px solid #f3f3f3;
@@ -8,7 +13,7 @@
         align-items: center;
         margin: 1.5%  1.5%;
         background-color: white;
-        width: 35%;
+        width: 43%;
         height: 6vh;
         font-size: 5vh;
         border-radius: 4vh;
@@ -66,9 +71,11 @@
     .right{
         width: 50%;
         height: 100%;
+      
     }
     .right  img{
-        height: 35vh;
+        height: 25vh;
+        margin-top: 50%;
     }
     .box2{
         width: 100%;
@@ -77,6 +84,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        
     }
     .box2 h1{
         text-align: center;
@@ -90,14 +98,15 @@
         border-radius: 50%;
     }
     .box2 .im{
-        border-radius: 90%;
-        width: 6vw;
+        border-radius: 50%;
+        width: 8vw;
      }
 
      .box3{
         width: 100%;
         height: 100%;
         display: inline-block;
+       
         
     }
     .box3 .box3L{
@@ -107,7 +116,7 @@
     .box3 .box3L img{
         margin-left: 90%;
         border: 0.2vh solid cadetblue;
-        height: 35vh;
+        height: 30vh;
         width: 100%;
         border-radius: 8%;
         margin-bottom: 40%;
